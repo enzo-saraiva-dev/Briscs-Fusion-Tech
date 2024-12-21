@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Luckiest+Guy&family=Paytone+One&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Luckiest+Guy&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Luckiest+Guy&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Luckiest+Guy&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Lilita+One&family=Luckiest+Guy&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Lilita+One&family=Luckiest+Guy&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+div#bar1{
+    position: relative;
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    border-radius: 40px;
+}
+div#bar2{
+    position: relative;
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    border-radius: 40px;
+    top: 5px;
+}
+div#bar3{
+    position: relative;
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    border-radius: 40px;
+    top: 10px;
+}
+div#opened{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 800px;
+    top: -50px;
+    border-radius: 40px;
+    left: -1000px;
+}
+.x{
+    position: relative;
+    width: 100px;
+    top: -800px;
+    left: 300px;
+    border-radius: 40px ;
+    visibility: hidden;
+}
+.s24ultra{
+    position: relative;
+    width: 1000px;
+    top: -700px;
+    left: 300px;
+}
+.text24{
+    position: relative;
+    font-family: 'Bebas Neue', static;
+    color: white;
+    font-size: 70px;
+    top: -700px;
+    left: 800px;
+}
+a{
+    text-decoration: none;
+}
+.setaesquerda{
+    position: relative;
+    width: 150px;
+    top: -1650px;
+    left: 500px;
+    visibility: hidden;
+    border-radius: 40px;    
+}
+.setadireita{
+    transform: rotate(180deg);
+    width: 150px;
+    position: relative;
+    top: -1650px;
+    left: 1000px;
+    border-radius: 40px;
+}
+.iphone15{
+    position: relative;
+    width: 450px;
+    top: -1360px;
+    left: -1000px;
+    visibility: hidden;
+}
+.text15{
+    position: relative;
+    font-family: 'Bebas Neue', static;
+    top: -1315px;
+    left: -800px;
+    font-size: 70px;
+    color: white;
+}
+div#topodelinha{
+    position: relative;
+    width: 1890px;
+    height: 1000px;
+    background-color: white;
+    top: -1300px;
+    border-radius: 40px;
+}
+.asus7{
+    position: relative;
+    width: 300px;
+    border-radius: 40px;
+    top: 100px;
+    left: 150px;
+}
+.textasus7{
+    position: relative;
+    color: black;
+    font-family: 'Poppins', static;
+    top: 70px;
+    left: 160px;
+}
+.preçoasus7{
+    position: relative;
+    font-family: 'Roboto Condensed', static;
+    color:black;
+    top: 50px;
+    left: 270px;
+}
+.zfold{
+    position: relative;
+    width: 300px;
+    border-radius: 40px;
+    left: 550px;
+    top: -340px;
+}
+.textzfold{
+    position: relative;
+    color: black;
+    left: 580px;
+    top: -360px;
+    font-family: 'Poppins', static;
+}
+.preçozfold{
+    position: relative;
+    font-family: 'Roboto Condensed', static;
+    color:black;
+    left: 670px;
+    top: -380px;
+}
+.topdelinhatext{
+    position: relative;
+    color:white;
+    font-family: 'Paytone One', static;
+    font-size: 70px;
+    top: -1250px;
+    left: 670px;
+}
+.xiaomi14{
+    position: relative;
+    width: 290px;
+    border-radius: 40px;
+    left: 1000px;
+    top: -860px;
+}
+.textxiaomi14{
+    position: relative;
+    top: -975px;
+    left: 1030px;
+    color: black;
+    font-family: 'Poppins', static;
+}
+.preçoxiaomi14{
+    position: relative;
+    top: -1000px;
+    left: 1120px;
+    color: black;
+    font-family: 'Roboto Condensed', static;
+}
+.oneplus11{
+    position: relative;
+    width: 250px;
+    border-radius: 20px;
+    top: -1390px;
+    left: 1400px;
+}
+.textoneplus11{
+    position: relative;
+    top: -1415px;
+    left: 1420px;
+    color: black;
+    font-family: 'Poppins', static;
+}
+.preçooneplus11{
+    position: relative;
+    top: -1440px;
+    left: 1500px;
+    color: black;
+    font-family: 'Roboto Condensed', static;
+}
+.google8{
+    position: relative;
+    top: -1400px;
+    width: 400px;
+    border-radius: 40px;
+    left: 100px;
+}
+.textegoogle8{
+    position: relative;
+    top: -1470px;
+    left: 170px;
+    color: black;
+    font-family: 'Poppins', static;
+}
+.preçogoogle8{
+    position: relative;
+    top: -1500px;
+    left: 280px;
+    color: black;
+    font-family: 'Roboto Condensed', static;
+}
+.edge50{
+    position: relative;
+    width: 230px;
+    top: -1890px;
+    left: 570px;
+}
+.textoedge50{
+    position: relative;
+    top: -1910px;
+    font-family: 'Poppins', static;
+    color: black;
+    left: 520px;
+}
+.precoedge50{
+    position: relative;
+    top: -1935px;
+    font-family: 'Roboto Condensed', static;
+    left: 640px;
+}
+.gt3{
+    position: relative;
+    width: 270px;
+    top: -2320px;
+    left: 1000px;
+}
+.textgt3{
+    position: relative;
+    font-family: 'Poppins', static;
+    color: black;
+    top: -2350px;
+    left: 1040px;
+}
+.precogt3{
+    position: relative;
+    color: black;
+    font-family: 'Roboto Condensed', static;
+    top: -2380px;
+    left: 1105px;
+}
+.xperia{
+    position: relative;
+    width: 210px;
+    top: -2780px;
+    left: 1430px;
+}
+.textxperia{
+    position: relative;
+    top: -2810px;
+    font-family: 'Poppins', static;
+    color: black;
+    left: 1420px;
+}
+.precoxperia{
+    position: relative;
+    color: black;
+    font-family:'Roboto Condensed', static;
+    top: -2835px;
+    left: 1510px;
+}
+.samsunglogo{
+    position: relative;
+    border-radius: 400pc;
+    width: 100px;
+    top: 70px;
+    left: 100px;
+}
+.applelogo{
+    position: relative;
+    width: 100px;
+    border-radius: 400pc;
+    top: 200px;
+}
+.xiaomilogo{
+    position: relative;
+    width: 150px;
+    border-radius: 400pc;
+    top: 250px;
+    left: 85px;
+}
+.titulo{
+    position: relative;
+    font-family: 'Lilita One', static;
+    font-size: 50px;
+    left: 65px;
+}
+.googlelogo{
+    position: relative;
+    width: 100px;
+    border-radius: 400pc;
+    top: 400px;
+    left: -50px;
+}
+.motorolalogo{
+    position: relative;
+    width: 100px;
+    top: -250px;
+    border-radius: 400pc;
+    left: 100px;
+}
+#splash-screen {
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    background: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    z-index: 1000;
+    transition: opacity 1s;
+    font-family:'Anton SC', static;
+    border-radius: -40px;
+}

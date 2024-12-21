@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Lilita+One&family=Luckiest+Guy&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Luckiest+Guy&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Faculty+Glyphic&family=Lilita+One&family=Luckiest+Guy&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+.back{
+    position: relative;
+    width: 100px;
+    border-radius: 40px;
+}
+.title{
+    position: relative;
+    font-family: 'Sour Gummy', static;
+    font-size: 50px;
+    top: -150px;
+    left: 570px;
+    color: white;
+}
+div#show{
+    position: relative;
+    width: 1700px;
+    height: 1000px;
+    background-color: white;
+    border-radius: 40px;
+    left: 90px;
+}
+.A15{
+    position: relative;
+    width: 300px;
+    border-radius: 40px;
+    left: 100px;
+    top: 50px;
+}
+.textA15{
+    position: relative;
+    color: black;
+    font-family:'Poppins', static;
+    top: 20px;
+    left: 130px;
+}
+.precoA15{
+    position: relative;
+    font-family:'Roboto Condensed',static;
+    color: black;
+    top: -10px;
+    left: 200px;
+}
+.A55{
+    position: relative;
+    width: 420px;
+    left: 500px;
+    top: -480px;
+    border-radius: 40px;
+}
+.textA55{
+    position: relative;
+    top: -535px;
+    left: 600px;
+    font-family: 'Poppins', static;
+    color: black;
+}
+.precoA55{
+    position: relative;
+    top: -560px;
+    left: 660px;
+    color: black;
+    font-family: 'Roboto Condensed', static;
+}
+.zflip6{
+    position: relative;
+    width: 350px;
+    top: -1000px;
+    left: 1050px;
+    border-radius: 10px;
+}
+.textzflip6{
+    position: relative;
+    font-family: 'Poppins', static;
+    color: black;
+    top: -1450px;
+    left: 1205px;
+}
+.precozflip6{
+    position: relative;
+    font-family: 'Roboto Condensed', static;
+    color: black;
+    top: -1480px;
+    left: 1210px;
+}
+.s23{
+    position: relative;
+    top: -1160px;
+    left: 70px;
+    width: 350px;
+    border-radius: 40px;
+}
+.texts23{
+    position: relative;
+    top: -1600px;
+    left: 400px;
+    font-family: 'Poppins', static;
+    color: black;
+}
+.precos23{
+    position: relative;
+    top: -1630px;
+    left: 400px;
+    color: black;
+    font-family: 'Roboto Condensed', static;
+}
+.ultras23{
+    position: relative;
+    width: 450px;
+    top: -1770px;
+    left: 600px;
+}
+.textultras23{
+    position: relative;
+    top: -2180px;
+    font-family: 'Poppins', static;
+    color: black;
+    left: 1015px;
+}
+.precoultra23{
+    position: relative;
+    top: -2210px;
+    left: 1020px;
+    color: black;
+    font-family: 'Roboto Condensed', static;
+}
+#splash-screen {
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    background:  rgb(0, 0, 0);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    z-index: 1000;
+    transition: opacity 1s;
+    font-family:'Anton SC', static;
+    border-radius: -40px;
+}
+.icon{
+    border-radius: 400px;
+}
